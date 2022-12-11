@@ -1,0 +1,3 @@
+-XX:InitialRAMPercentage=95.0
+-XX:MaxRAMPercentage=95.0
+-Dbar=foo

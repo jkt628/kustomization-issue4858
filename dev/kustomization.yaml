@@ -1,0 +1,7 @@
+resources:
+- ../base
+configMapGenerator:
+- name: container_environment
+  behavior: merge
+  files:
+  - ENV_NAME

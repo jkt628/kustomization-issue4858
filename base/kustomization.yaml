@@ -1,0 +1,4 @@
+configMapGenerator:
+- name: container_environment
+  files:
+  - JVM_OPTIONS

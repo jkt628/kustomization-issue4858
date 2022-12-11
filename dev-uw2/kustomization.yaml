@@ -1,0 +1,8 @@
+resources:
+- ../dev
+- ../uw2
+configMapGenerator:
+- name: container_environment
+  behavior: merge
+  files:
+  - JVM_OPTIONS

@@ -1,0 +1,8 @@
+resources:
+- ../prod
+- ../ue1
+configMapGenerator:
+- name: container_environment
+  behavior: merge
+  files:
+  - JVM_OPTIONS
